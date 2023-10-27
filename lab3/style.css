@@ -1,0 +1,37 @@
+.square {
+	    width: 800px;
+	    height: 800px;
+	    display: flex;
+	    flex-direction: column;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+
+	.top, .bottom {
+	    flex: 1;
+	    background-color: blue;
+	    height: 15%;
+	}
+
+	.middle {
+	    display: flex;
+	    flex-direction: row;
+	    height: 70%
+	}
+
+	.first {
+	    flex: 3;
+	    background-color: #00ff00;
+		width: 75%;
+	}
+
+	.second {
+	    flex: 1;
+		width: 25%;
+	}
+
+	.center {
+		display: flex;
+		align-items: center;
+   		justify-content: center;
+	}
