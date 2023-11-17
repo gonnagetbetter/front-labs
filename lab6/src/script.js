@@ -1,4 +1,4 @@
-const apiUrl = "https://google.com";
+const apiUrl = "https://randomuser.me/api";
 
 document.getElementById("downloadButton").onclick = () => {
   const people = document.getElementsByClassName("person");
