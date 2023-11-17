@@ -23,6 +23,8 @@ document.getElementById("downloadButton").onclick = () => {
         <p>Country: ${country}</p>
         <p>Post Code: ${postCode}</p>
       `;
+      })
+      .then(() => {
         const message = document.createElement("p");
         message.innerHTML = `Success!`;
         message.style.color = "green";
