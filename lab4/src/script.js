@@ -25,7 +25,7 @@ const downscaleImgButton = document.getElementById("downscaleImg");
 addImgButton.onclick = () => {
   const images = document.getElementById("images");
   const nImg = document.createElement("img");
-  nImg.src = "/lab4/images/odesa-vid-zverhu-690x450.jpg";
+  nImg.src = "./images/odesa-vid-zverhu-690x450.jpg";
   nImg.alt = "Odesa";
   nImg.id = "nImg";
   if (images.children.length === 1) {
