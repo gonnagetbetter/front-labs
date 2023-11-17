@@ -1,0 +1,13 @@
+.fAfter {
+  color: blue;
+  background-color: yellow;
+}
+
+.sAfter {
+  color: red;
+  background-color: green;
+}
+
+.buttonContainer {
+  display: flex;
+}

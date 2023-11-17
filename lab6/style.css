@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 10px;
+}
+
+.personContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(44, 43, 43);
+  color: white;
+  font-size: 20px;
+  width: 20%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.person img {
+  height: auto;
+}
+
+.buttonGray {
+  width: 200px;
+  background-color: rgb(44, 43, 43);
+  color: white;
+}
